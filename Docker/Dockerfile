@@ -44,9 +44,9 @@ RUN add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe' &&
 
 ## GMAP installation
 WORKDIR $SRC
-RUN wget http://research-pub.gene.com/gmap/src/gmap-gsnap-2017-11-15.tar.gz && \
-        tar xvf gmap-gsnap-2017-11-15.tar.gz && \
-        cd gmap-2017-11-15 && \
+RUN wget http://research-pub.gene.com/gmap/src/gmap-gsnap-2019-09-12.tar.gz && \
+        tar xvf gmap-gsnap-2019-09-12.tar.gz && \
+        cd gmap-2019-09-12 && \
         ./configure && \
         make && \
         make install
